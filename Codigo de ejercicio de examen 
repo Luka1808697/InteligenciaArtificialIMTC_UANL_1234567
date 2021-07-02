@@ -1,0 +1,79 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Ejercicio1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOTtW+vhBVA3gIiAiWueFsK",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Luka1808697/InteligenciaArtificialIMTC_UANL_1234567/blob/main/Codigo%20de%20ejercicio%20de%20examen%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "fS3_mqRO-ozz"
+      },
+      "source": [
+        "En este ejercicio se pondra en practica los conceptos basicos de python antes de empezar a practicar modelos de machine learning\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "DUaFdQobKmGf"
+      },
+      "source": [
+        "Codigo de ejercicio de examen \n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "sJz8JQmScP-X",
+        "outputId": "58802140-eb49-4d88-e7b5-5a38561bda0f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "x=int(input(\"Dame un numero: \"))\n",
+        "if x<=0:\n",
+        "  print(\"Necesito uno que no sea cero\")\n",
+        "else:\n",
+        "  N=(x*(x+1))/2\n",
+        "print(N)\n"
+      ],
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Dame un numero: 8\n",
+            "36.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
